@@ -1,7 +1,7 @@
 # Symbiote
 A portable storage device for personally identifiable information (PII)
 
-## Concept
+## Introduction
 The modern age has created information that is inherent to a person's identity, particularly online. This info is very commonly stored on personal devices like smartphones. However, the smartphone has become a general-purpose device with many uses that are not very portable. To be more precise, The device is portable but the information is not. A special-purpose device is needed that meets the needs of a secure form of storage that can retrieve the user's identifiable info and allow it to be used in the many computer interfaces that are common today.
 
 The cloud is the popular way to store PII however, it has become fractured with many services that don't operate well with each other. Using the cloud is a networked approach to managing data but a disconnected one can bring benefits to remote locations and air-gapped equipment requiring the highest level of security. This naturally leads to information now being stored in edge computing devices like single-board computers and other similar technology.
