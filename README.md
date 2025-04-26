@@ -6,7 +6,7 @@ There is a lot of information that is inherent to a person's identity, particula
 
 What if there was a device that could be plugged into any computer turning the computer into a thin client for the device? User's PII can be kept on the device and the interchange of information can be done seamlessly with the applications on the thin client. A sort of symbiote device. This is possible now with the availability of portable single-board computers with connectivity options like USB, Bluetooth, WiFi, and more.
 
-## System Requirements
+## Requirements
 The device shall have the following hardware components
 1. Display to show prompts
 2. Joystick and buttons to accept input
