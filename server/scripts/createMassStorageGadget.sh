@@ -14,7 +14,7 @@ echo 120 > configs/c.1/MaxPower
 
 mkdir -p functions/mass_storage.usb2
 #echo 0 > functions/mass_storage.usb1/stall
-echo /mnt/symbiote.bin > functions/mass_storage.usb2/lun.0/file  # Use the backing file
+echo /dev/mmcblk0p3 > functions/mass_storage.usb2/lun.0/file  # Use the backing file
 echo 1 > functions/mass_storage.usb2/lun.0/removable
 echo 0 > functions/mass_storage.usb2/lun.0/ro
 ln -s functions/mass_storage.usb2 configs/c.1/

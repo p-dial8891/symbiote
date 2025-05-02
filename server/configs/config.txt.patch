@@ -1,0 +1,23 @@
+--- config.txt	2025-05-02 23:04:02.882411266 +0100
++++ /boot/firmware/config.txt	2025-05-02 23:11:44.000000000 +0100
+@@ -36,13 +36,18 @@
+ # Run as fast as firmware / board allows
+ arm_boost=1
+ 
++dtoverlay=dwc2
++
+ [cm4]
+ # Enable host mode on the 2711 built-in XHCI USB controller.
+ # This line should be removed if the legacy DWC2 controller is required
+ # (e.g. for USB device mode) or if USB support is not required.
+-otg_mode=1
++# otg_mode=1
+ 
+ [cm5]
+-dtoverlay=dwc2,dr_mode=host
++dtoverlay=dwc2
+ 
+ [all]
++gpio-21=pu
++enable_uart=1
++
