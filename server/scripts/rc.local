@@ -23,9 +23,9 @@ modprobe libcomposite
 cd /sys/kernel/config/usb_gadget/
 mkdir g1
 cd g1
-bash -c ~/symbiote/server/scripts/createMassStorageGadget.sh
-bash -c ~/symbiote/server/scripts/gadget-setup-mobius.sh
-bash -c ~/symbiote/server/scripts/createNcmGadget.sh
+bash -c /home/Developer/symbiote/server/scripts/createMassStorageGadget.sh
+bash -c /home/Developer/symbiote/server/scripts/gadget-setup-mobius.sh
+bash -c /home/Developer/symbiote/server/scripts/createNcmGadget.sh
 echo $(ls /sys/class/udc) > UDC
 ip link set usb0 up
 ip addr add 169.254.24.24/16 dev usb0
