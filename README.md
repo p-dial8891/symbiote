@@ -20,7 +20,7 @@ The software components will include
    - USB NCM Network Adapter
    - USB Mass Storage Class device
 2. An X11 server for windows with X11 Forwarding
-3. The Mobius password manager (more details below)
+3. The [Mobius](https://github.com/p-dial8891/mobius) password manager
 4. A PDF Reader with image and text annotation capabilities
 5. A Graphics package suitable for creating eSignatures by a pointing device
 6. Shell scripts that will be used by the user to
