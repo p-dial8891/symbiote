@@ -28,3 +28,6 @@ The software components will include
    - Start the graphics package to create eSignatures
 7. Linux distribution with package management
 
+## Resources
+
+Browse the [wiki](https://github.com/p-dial8891/symbiote/wiki) for details on usage of the device.
